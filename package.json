@@ -1,0 +1,16 @@
+{
+  "name": "discussion-app-main",
+  "version": "1.0.0",
+  "description": "Discussion app Node Anshu Bajaj 1811981058",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node main.js"
+  },
+  "author": "Anshu Bajaj 1811981058",
+  "license": "ISC"
+}
