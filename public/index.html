@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Discussion App with NodeJS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body onload="ff()">
+    <div id="header">
+        <h1>Discussion Portal</h1>
+    </div>
+    <div class="container-fluid">
+        <input type="button" class="btn btn-primary" id="cnf" onclick="f0()" value="New Question Form" />
+        <input type="text" placeholder="Search" id="searchtxt" />
+        <br /><br />
+    </div>
+    <div id="test" class="container-fluid">
+        <div id="leftSide"></div>
+        <div id="rightSide">
+            <div id="form1">
+                <h1>Welcome to Discussion Portal !</h1>
+                <h3>Enter a subject and question to get started</h3>
+                <form>
+                    <input type="text" id="sub" placeholder="Enter Subject" required /><br /><br />
+                    <textarea rows="10" cols="80" id="w" placeholder="Enter Question" required></textarea><br /><br />
+                    <input id="sb" class="btn btn-primary" onclick="f()" type="button" value="submit" />
+                </form>
+            </div>
+            <div id="form2" style="display:none;">
+                <div id="ques">
+                    <div id="quu">
+                        <h1><label id="qq"></label></h1>
+                        <h2><label id="qq2"></label></h2>
+                    </div><br /><input type="button" class="btn btn-primary" id="resolve" onclick="dell()"
+                        value="Resolve" />
+                </div>
+                <form>
+                    <h1>Responses</h1>
+
+
+                    <div id="form3"></div>
+
+
+
+                    <h2>Add Response</h2><input type="text" placeholder="enter name" id="na" /><br /><br />
+                    <textarea id="tv" rows="10" cols="80" placeholder="enter text"></textarea><br /><br />
+                    <input type="button" class="btn btn-primary" value="submit" id="rep" onclick="f3()">
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src=./scripts.js>
+
+
+</script>
+
+</html>
